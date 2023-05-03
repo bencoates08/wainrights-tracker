@@ -1,0 +1,43 @@
+.button {
+  position: relative;
+  cursor: pointer;
+
+  min-height: 32px;
+  min-width: 32px;
+
+  border: none;
+  border-radius: 6px;
+
+  background-color: rgb(var(--background-primary-rgb));
+}
+
+.button:after {
+  content: "";
+  position: absolute;
+  transform: translate(-50%, -50%);
+  height: 3px;
+  width: 50%;
+  top: 50%;
+  left: 50%;
+
+  background-color: var(--font-primary-hex);
+}
+
+.button:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 50%;
+  width: 3px;
+
+  background-color: var(--font-primary-hex);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .button:hover {
+    background-color: rgb(var(--background-secondary-rgb));
+    transition: 0.2s;
+  }
+}

@@ -1,0 +1,18 @@
+.link {
+  display: inline-block;
+
+  padding: 10px;
+
+  color: var(--font-primary-hex);
+  font-family: var(--inter-font);
+  font-size: 20px;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .link:hover {
+    color: var(--font-highlight-hex);
+    transition: 0.2s;
+  }
+}

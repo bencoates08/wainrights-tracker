@@ -16,6 +16,7 @@
 /build
 
 # misc
+/app_copy
 .DS_Store
 *.pem
 

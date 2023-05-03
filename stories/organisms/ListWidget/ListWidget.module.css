@@ -1,0 +1,16 @@
+.widget {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+  border: 1px solid rgb(var(--background-primary-rgb));
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.widgetItems {
+  display: grid;
+  flex-direction: column;
+  gap: 1px;
+  background-color: rgb(var(--background-primary-rgb));
+}

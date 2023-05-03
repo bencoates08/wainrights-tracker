@@ -1,0 +1,19 @@
+.item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 40px;
+  padding-left: 12px;
+  padding-right: 4px;
+  background-color: rgb(var(--background-secondary-rgb));
+}
+
+.itemTitle {
+  padding: 4px;
+
+  color: var(--font-primary-hex);
+  font-family: var(--inter-font);
+  font-weight: normal;
+  font-size: 100%;
+}
